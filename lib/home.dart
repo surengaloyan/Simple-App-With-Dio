@@ -53,7 +53,8 @@ class _HomeState extends State<Home> {
             },
             child: const Text('Explore now!'),
           ),
-          const SizedBox(height: 50),
+          const SizedBox(height: 30),
+          const SizedBox(height: 30),
           Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
@@ -65,7 +66,7 @@ class _HomeState extends State<Home> {
               textAlign: TextAlign.center,
             ),
           ),
-          const SizedBox(height: 100),
+          const SizedBox(height: 60),
           SizedBox(
             width: 300,
             height: 200,
